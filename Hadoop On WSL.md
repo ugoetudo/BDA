@@ -79,3 +79,10 @@ When you test your installation on the terminal, you should see the following:
 
 Your dashboard should render in your browser while the cluster is running:
 ![](cluster_health.png)
+
+## Stopping Services
+
+To stop all running cluster services, use the command below:
+```bash
+professor@my-computer:~$ stop-all.sh
+```
